@@ -28,13 +28,49 @@ fieldLayouts:
             type: craft\fieldlayoutelements\EntryTitleField
             warning: null
             width: 100
-        name: Content
+          -
+            fieldUid: 0d4d066d-6c5c-41e9-a294-ce3311044fb2
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: d5b4b62c-6dc3-41da-beaa-a63af6b8f18a
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: bab1985a-1b08-45aa-b667-ef3a1b3422a8
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 4f2f6613-af4a-4c26-940c-eb9c46b3df96
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: 'Post Content'
         sortOrder: 1
 handle: blog
 hasTitleField: true
 name: Blog
 section: 7324aa92-bc35-4e0b-8bcb-8f17bee832bb
 sortOrder: 1
-titleFormat: null
+titleFormat: Headline
 titleTranslationKeyFormat: null
 titleTranslationMethod: site

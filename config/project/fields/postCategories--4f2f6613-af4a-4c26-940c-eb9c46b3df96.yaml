@@ -1,0 +1,23 @@
+contentColumnType: string
+fieldGroup: d32ba746-906b-4d53-aef8-8ea88f43f008
+handle: postCategories
+instructions: 'Post Categories'
+name: 'Post Categories'
+searchable: false
+settings:
+  allowLimit: false
+  allowMultipleSources: false
+  allowSelfRelations: false
+  branchLimit: ''
+  limit: null
+  localizeRelations: false
+  selectionLabel: 'Add a category'
+  showSiteMenu: true
+  source: 'group:0688749d-207e-410f-acc9-e5f18bc047ff'
+  sources: '*'
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Categories

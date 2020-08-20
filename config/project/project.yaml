@@ -1,8 +1,13 @@
-dateModified: 1597917397
+dateModified: 1597919074
 email:
   fromEmail: tuannd@haposoft.com
   fromName: Craft
   transportType: craft\mail\transportadapters\Sendmail
+plugins:
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
 system:
   edition: solo
   live: true
