@@ -1,0 +1,50 @@
+fieldLayouts:
+  cc2f4bcf-c1a5-44cf-8182-45844ce84936:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            autofocus: false
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            required: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\EntryTitleField
+            warning: null
+            width: 100
+          -
+            heading: null
+            type: craft\fieldlayoutelements\Heading
+          -
+            template: ''
+            type: craft\fieldlayoutelements\Template
+            width: 100
+          -
+            heading: null
+            type: craft\fieldlayoutelements\Heading
+        name: Content
+        sortOrder: 1
+handle: header
+hasTitleField: true
+name: header
+section: 48c3a575-b126-478e-bee0-03cb4962af93
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

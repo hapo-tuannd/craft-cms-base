@@ -1,0 +1,17 @@
+dateModified: 1597917397
+email:
+  fromEmail: tuannd@haposoft.com
+  fromName: Craft
+  transportType: craft\mail\transportadapters\Sendmail
+system:
+  edition: solo
+  live: true
+  name: Craft
+  schemaVersion: 3.5.12
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

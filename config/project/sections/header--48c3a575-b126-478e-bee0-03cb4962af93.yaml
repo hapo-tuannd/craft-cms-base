@@ -1,0 +1,11 @@
+enableVersioning: true
+handle: header
+name: header
+propagationMethod: all
+siteSettings:
+  331c97fc-d7b2-41c3-9371-7965dee11a7f:
+    enabledByDefault: true
+    hasUrls: false
+    template: null
+    uriFormat: null
+type: single
