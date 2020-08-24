@@ -1,0 +1,18 @@
+contentColumnType: string(2000)
+fieldGroup: 7e2a467f-7873-4671-b8ff-e4ef1610d8d9
+handle: siteDescription
+instructions: 'Site Description'
+name: 'Site Description'
+searchable: true
+settings:
+  byteLimit: null
+  charLimit: 500
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: '1'
+  placeholder: 'Our stories site'
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText
