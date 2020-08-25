@@ -2,17 +2,20 @@
 
 {% set featureImage = {
     mode: 'crop',
-    width: 900,
-    height: 600,
+    width: 400,
+    height: 200,
     quality: 90
 } %}
 
 {% block content %}
-  <h1 class="text-4xl text-black font-display my-4">{{ entry.title }}</h1>
-  <time class="text-sm block pb-4" datetime="{{ entry.postDate | date('Y-m-d') }}">{{ entry.postDate | date('Y-m-d') }}</time>
-  {% if entry.featureImage|length %}
-    {% for image in entry.featureImage.all() %}
-        <img src="{{ image.url }}" alt="{{ image.title }}" />
-    {% endfor %}
-  {% endif %}
+	<h1 class="text-4xl text-black font-display my-4">{{ entry.title }}</h1>
+	<time class="text-sm block pb-4" datetime="{{ entry.postDate | date('Y-m-d') }}">{{ entry.postDate | date('Y-m-d') }}</time>
+	{% if entry.featureImage|length %}
+		{% for image in entry.featureImage.all() %}
+			<img src="{{ image.getUrl(featureImage) }}" alt="{{ image.title }}"/>
+		{% endfor %}
+	{% endif %}
+
+	{% include "_includes/post-blocks" with { blocks: entry.postContent.all() } only %}
+
 {% endblock %}
