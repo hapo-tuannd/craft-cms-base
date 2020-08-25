@@ -8,9 +8,14 @@
     <link href="/styles.css" rel="stylesheet">
   </head>
   <body class="ltr">
+    {% include "_includes/nav" %}
     <div class="container mx-auto px-4">
       {% block content %}
       {% endblock %}
     </div>
+    <footer class="container mx-auto px-4 text-sm">
+      {{ siteInformation.siteDescription|markdown }}
+      <p>&copy; {{ now | date('Y') }}, build with <a class="text-blue-600" href="haposoft.com">Hapo development</a> team</p>
+    <footer>
   </body>
 </html>
