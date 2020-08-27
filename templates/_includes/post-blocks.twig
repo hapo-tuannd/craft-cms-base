@@ -2,7 +2,7 @@
 	{% for block in blocks %}
 		<div class="my-4">
 			{% if block.type == 'text' %}
-				{{ block.text }}
+				{{ block.text|markdown }}
 			{% elseif block.type == 'image' %}
 				{% for image in block.image.all() %}
 					<img src="{{ image.url }}" alt="{{ image.title }}"/>
