@@ -1,0 +1,27 @@
+{
+  "name": "craft-base",
+  "version": "1.0.0",
+  "description": "[Follow this link](https://craftcms.com/docs/3.x/requirements.html#required-php-extensions)\r - Note: point root directory to: `<path-to-source>/web`\r ## Step 1: Download Craft\r ```\r $ git clone git@github.com:hapo-tuannd/craft-cms-base.git\r ```\r You can learn about what all these folders and files are for and how to customize them from the [Directory Structure](https://craftcms.com/docs/3.x/directory-structure.html) page.\r ## Step 2: Set the File Permissions\r For Craft to run properly, PHP needs to be able to write to the following places:",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm run development",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "npm run development -- --watch",
+    "watch-poll": "npm run watch -- --watch-poll",
+    "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "prod": "npm run production",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.work:hapo-tuannd/craft-cms-base.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^7.0.2",
+    "laravel-mix": "^5.0.5",
+    "tailwindcss": "^1.7.5"
+  }
+}

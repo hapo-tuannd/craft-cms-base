@@ -5,7 +5,7 @@
     <meta charset="utf-8"/>
     <title>{{ siteName }}</title>
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport">
-    <link href="/styles.css" rel="stylesheet">
+    <link href="dist/css/app.css" rel="stylesheet">
   </head>
   <body class="ltr">
     {% include "_includes/nav" %}
@@ -17,5 +17,6 @@
       {{ siteInformation.siteDescription|markdown }}
       <p>&copy; {{ now | date('Y') }}, build with <a class="text-blue-600" href="haposoft.com">Hapo development</a> team</p>
     <footer>
+    <script src="/build/js/main.js"></script>
   </body>
 </html>
