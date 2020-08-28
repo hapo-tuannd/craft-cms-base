@@ -60,4 +60,9 @@ DB_PASSWORD=""
 $ composer install
 ```
 
+### Run build laravel mix to compile resources
+```sh
+$ npm run dev
+```
+
 
