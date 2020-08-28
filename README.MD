@@ -62,6 +62,7 @@ $ composer install
 
 ### Run build laravel mix to compile resources
 ```sh
+$ npm i
 $ npm run dev
 ```
 
